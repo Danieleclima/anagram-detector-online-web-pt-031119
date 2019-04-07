@@ -11,6 +11,5 @@ class Anagram
     array.find_all do |word|
       word.split("").sort == @word.split("").sort
     end
-  
   end
 end
