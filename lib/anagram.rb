@@ -8,6 +8,7 @@ class Anagram
   end
   
   def match (array)
-    array.find_all 
+    array.find_all do 
+      
   end
 end
